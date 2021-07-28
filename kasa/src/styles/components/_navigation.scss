@@ -1,0 +1,19 @@
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    display: flex;
+    margin: 20px;
+    height: 34px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: $main-color;
+}
+
+.nav-active{
+    text-decoration: underline;
+}
