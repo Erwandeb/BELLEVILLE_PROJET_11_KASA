@@ -5,7 +5,7 @@
 
 a{
     display: flex;
-    margin: 20px;
+    margin: 1%;
     height: 34px;
     width: 120px;
     text-align: center;
@@ -16,4 +16,19 @@ a{
 
 .nav-active{
     text-decoration: underline;
+}
+
+@media screen and (max-width:426px){
+    .navigation{
+      height: 50px;
+      align-items: center;
+      margin-top: 1%;
+      a{
+        margin: 1%;
+        height: 34px;
+        width: 75px;
+    }
+    }
+    
+    
 }

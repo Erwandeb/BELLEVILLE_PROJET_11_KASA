@@ -1,0 +1,16 @@
+.background-about{
+    width: auto;
+
+}
+
+.img-window{
+    width: 100%;
+    img{
+        margin-top: 4%;
+        border-radius: 25px;
+        width: 96%;
+        height: 223px;
+        object-fit: cover;
+        mix-blend-mode: darken;
+    }
+}
