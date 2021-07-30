@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import AboutMainText from '../components/about/About-main-text';
 import BackgroundAbout from '../components/about/Background-About';
 import Footer from '../components/Footer';
 import Logo from '../components/logo';
@@ -11,6 +12,7 @@ class About extends Component {
                 <Logo />
                 <Navigation />
                 <BackgroundAbout/>
+                <AboutMainText />
                 <Footer />
             </div>
         )

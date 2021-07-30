@@ -9,10 +9,13 @@ class NotFound extends Component {
             <div className="notFound">
                 <Logo />
                 <Navigation />
-                <div className="404-error">
-                    <h1>404</h1>
-                    <p>Oups ! La page que vous demandez n'existe pas.</p>
-                    <a href="http://localhost:3000/"> Retournez sur la page d'accueil</a>
+                <div className="notFound-error">
+                    <div className="container-notFound-text">
+                        <h1>404</h1>
+                        <p>Oups ! La page que vous demandez n'existe pas.</p>
+                        <a href="http://localhost:3000/"> Retournez sur la page d'accueil</a>
+                    </div>
+                    
                 </div>
                 <Footer />
             </div>
