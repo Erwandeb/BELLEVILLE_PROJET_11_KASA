@@ -1,0 +1,15 @@
+.GridHomePage{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    .grid{
+        display: grid;
+        width: 70%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 5%;
+        row-gap: 5%;
+        justify-self: stretch;
+        align-items: center;
+    }
+}
