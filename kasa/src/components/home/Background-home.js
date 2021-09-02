@@ -7,7 +7,7 @@ class BackgroundHome extends Component {
                 <div className ="img-window-home">
                     <img src="./media/IMG.png" alt="Background de la page home" />
                 </div>
-                <div class="slogan-home">
+                <div className="slogan-home">
                     <p> Chez vous, partout et ailleurs</p>
                 </div>
                 

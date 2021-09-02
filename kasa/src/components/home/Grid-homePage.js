@@ -1,25 +1,48 @@
 import {Component} from 'react';
-import Appartement from './Appartement';
+import Card from './Card';
+
+
+
 
 class GridHomePage extends Component {
-    render(){
-        return(
-        
-            <div className="GridHomePage">
-                <div className="grid">
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                    <Appartement />
-                </div>
-            
-            </div>
-        )
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+        items: []
+        };
     }
-}
+
+
+    componentDidMount() {
+        fetch("./annonces.json")
+            .then(res => res.json())
+            .then(
+                (result) => {
+                this.setState({
+                items: result
+            });
+            },
+            )
+    }
+    
+      render() {
+        const { items } = this.state;
+          return (
+            <div className="logements">
+                <div className ="logement-list">
+                    {items.map(logement => (
+                        <Card 
+                        logement={ logement } 
+                        key={logement.id}
+                        />
+                    ))}
+                </div>
+            </div>
+          );
+        }
+      }
+
+ 
 
 export default GridHomePage;

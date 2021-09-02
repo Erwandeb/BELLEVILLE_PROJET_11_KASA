@@ -3,10 +3,6 @@ import Accordeon from '../Accordeon';
 
 class Aboutdisplay extends Component {
  
-
-
-
-
     render(){
         
         const btnToDisplay = document.querySelectorAll(".about-Details")

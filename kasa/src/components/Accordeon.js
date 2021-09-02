@@ -1,6 +1,6 @@
 import {Component} from 'react'
 
-export default class Accordeon extends Component{
+export default class Accordeon extends Component {
 
     constructor(props){
         super(props)
@@ -28,5 +28,4 @@ export default class Accordeon extends Component{
         {this.renderDescription()}
     </div>
     }
-
 }

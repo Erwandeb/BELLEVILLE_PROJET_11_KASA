@@ -1,14 +1,10 @@
 .accordeon {
-
     img {
         transition: all .2s ease-in-out;
-        
         &.opened {
             transform: rotate(-180deg);
         }
-
     }
-
 }
 
 .description-text-accordeon{

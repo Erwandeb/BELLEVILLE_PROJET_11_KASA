@@ -1,8 +1,10 @@
-.GridHomePage{
+.logements{
     display: flex;
     justify-content: center;
-    height: auto;
-    .grid{
+    width: 100%;
+    margin-bottom: 4%;
+
+    .logement-list{
         display: grid;
         width: 70%;
         grid-template-columns: 1fr 1fr 1fr;
@@ -10,6 +12,23 @@
         column-gap: 5%;
         row-gap: 5%;
         justify-self: stretch;
-        align-items: center;
+        height: fit-content;
+        position: absolute;
+        
+    }
+}
+
+@media screen and (max-width:426px){
+    .logements{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       
+        .logement-list{
+            display: flex;
+            width: 95%;
+            flex-direction: column;
+
+        }
     }
 }
