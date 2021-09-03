@@ -10,7 +10,7 @@ export default class Card extends Component{
             <div className="appartement">
                 <div className ="appartement-window">
                    <p>{this.props.logement.title}</p>
-                   <Link to={`/logement/${this.props.logement.title}`}><img src={this.props.logement.cover} alt={this.props.logement.title}/></Link>
+                   <Link key={`freelance-${this.props.logement.id}`} to={`/logement/${this.props.logement.title}`}><img src={this.props.logement.cover} alt={this.props.logement.title}/></Link>
                 </div>
             </div>
         )

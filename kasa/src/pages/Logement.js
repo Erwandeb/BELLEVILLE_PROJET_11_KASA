@@ -3,44 +3,59 @@ import Footer from '../components/Footer';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 
+
 class Logement extends Component {
 
     
     constructor(props) {
         super(props);
         this.state = {
-            instructors: [],
-            instructorID : props.match.params.instructorID,
-            title: []
+            logementData:{},
 
         };
     }
+    
+
+    /*
+    constructor(props) {
+        super(props);
+        this.state = {
+        items: []
+        };
+    }
+    */
 
     componentDidMount() {
-        fetch("./annonces.json")
+        const { id } = this.props.match.params
+
+        fetch(`http://localhost:3000//annonces.json?id=${id}`)
             .then(res => res.json())
             .then((result) => {
                 this.setState({
-                instructors: result.data
-                });
+                 logementData : result?.appartementData});
             },
-            
-        )
+            )
     }
     
-
     render(){
-        console.log("houga",this.props.match.description)
+        console.log("houra",this.props.match)
         console.log("yooo",this.props)
-        console.log("testing",this.props.match)
-     
+        console.log("testing", this.props.match.params.instructorID)
+        const { id } = this.props.match.params
+        const { title  } = this.props.match.params
+
+
+        const { logementData } = this.state
+        
+        
+
         return(
             <div className="home">
                 <Logo />
                 <Navigation />
-                
+                <div><h1>test: {id}</h1></div>
+                <div><h1>test: {title}</h1></div>
                 <Footer />
-
             </div>
         )
     }

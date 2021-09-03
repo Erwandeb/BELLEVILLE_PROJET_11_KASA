@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/a-propos" component={About}/>
-          <Route path="/logement/:id" component={Logement}/>
+          <Route path="/logement/:id" render={(props) => <Logement {...props}/>}/>
           <Route component={NotFound}/>
         </Switch>
       </BrowserRouter>
