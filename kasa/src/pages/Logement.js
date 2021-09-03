@@ -38,9 +38,8 @@ class Logement extends Component {
     }
     
     render(){
-        console.log("houra",this.props.match)
-        console.log("yooo",this.props)
-        console.log("testing", this.props.match.params.instructorID)
+        console.log("test 1",this.props.match)
+        console.log("Test 2",this.props)
         const { id } = this.props.match.params
         const { title  } = this.props.match.params
 
