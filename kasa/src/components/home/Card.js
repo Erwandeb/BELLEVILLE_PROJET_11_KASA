@@ -1,5 +1,5 @@
 import {Component} from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 export default class Card extends Component{
@@ -10,7 +10,7 @@ export default class Card extends Component{
             <div className="appartement">
                 <div className ="appartement-window">
                    <p>{this.props.logement.title}</p>
-                   <img src={this.props.logement.cover} alt={this.props.logement.title}/>
+                   <Link to={`/logement/${this.props.logement.title}`}><img src={this.props.logement.cover} alt={this.props.logement.title}/></Link>
                 </div>
             </div>
         )

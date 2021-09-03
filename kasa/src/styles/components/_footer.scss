@@ -4,7 +4,7 @@
     background-color: black;
     height: 210px ;
     justify-content: center;
-    position:absolute;
+    position:relative;
     bottom: 0px;
     width: 100%;
     color: white;
@@ -14,5 +14,26 @@
     margin: 1%;
     img{
         margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 210px ;
+        justify-content: center;
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        color: white;
+    }
+    
+    .logoFooter{
+        margin: 1%;
+        img{
+            margin-bottom: 2%;
+        }
     }
 }

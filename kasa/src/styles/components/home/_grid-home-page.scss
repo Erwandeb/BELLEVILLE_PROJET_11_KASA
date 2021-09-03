@@ -3,6 +3,7 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 4%;
+    height: 2500px;
 
     .logement-list{
         display: grid;
@@ -10,10 +11,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         column-gap: 5%;
-        row-gap: 5%;
+        row-gap: 30px;
         justify-self: stretch;
-        height: fit-content;
+        height: 100%;
         position: absolute;
+        //background-color: yellow;
         
     }
 }
@@ -22,9 +24,12 @@
     .logements{
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: auto;
+        height: 7150px;
+        margin-top: 10px;
        
         .logement-list{
+            margin-top: 10px;
             display: flex;
             width: 95%;
             flex-direction: column;

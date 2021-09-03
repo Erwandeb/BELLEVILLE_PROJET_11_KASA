@@ -42,8 +42,11 @@
 
 @media screen and (max-width:426px){
     .aboutMainText{
+        height: 400px;
         .wrapper-about{
             width: 95%;
+            height: auto;
+            margin-bottom: 66px;
             .about-Details{
                 height: 25px;
                 margin-top: 4%;

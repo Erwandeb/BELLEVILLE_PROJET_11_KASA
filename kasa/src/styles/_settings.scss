@@ -21,15 +21,12 @@ body{
     font-family: $font;
     color: $main-color;
     min-height: auto;
-    
+    //height: auto;
+    //position: relative;
 }
 
-
-#root{
-    height:fit-content;
-}
 .home{
-    height: max-content;
+    height: auto;
 }
 
 li{
