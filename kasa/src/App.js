@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import Logement from './pages/Logement';
+import LogementDetails from './pages/LogementDetails';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/a-propos" component={About}/>
-          <Route path="/logement/:id" render={(props) => <Logement {...props}/>}/>
+          <Route path="/logement/:id" exact strict render={(props) => <LogementDetails {...props}/>}/>
           <Route component={NotFound}/>
         </Switch>
       </BrowserRouter>
