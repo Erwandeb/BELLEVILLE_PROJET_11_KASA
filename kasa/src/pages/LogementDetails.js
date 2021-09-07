@@ -9,26 +9,34 @@ class LogementDetails extends Component {
    
     constructor(props) {
         super(props);
-        this.state = { };
+        this.state = { logementData : {} };
     }
     
     componentDidMount() {
         const { id } = this.props.match.params
-        fetch(`http://localhost:3000//annonces.json?id=${id}`)
+        
+        
+        fetch(`http://localhost:3000//annonces.json`)
         .then(res => res.json())
-        .then((result) => { this.setState({logementDetailsData : result}) });
+        .then((result) => { console.log("testing result", result)
+            this.setState({logementData : this.props })}
+              
+            );
     }
     
     render(){
-        console.log("yooo",this.props)
-        
+        console.log("valeur des props :",  this.props.match.params)
+        console.log("valeur des props2 :", this.props  )
+        const { logementData } = this.props;
+       
+        console.log(" variable logementData",logementData)
+
         return(
             
             <div className="home">
                 <Logo />
                 <Navigation />
                 
-              
                 <Footer />
             </div>
         )

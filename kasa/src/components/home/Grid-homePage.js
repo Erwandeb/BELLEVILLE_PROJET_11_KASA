@@ -33,8 +33,8 @@ class GridHomePage extends Component {
                     ))}
                 </div>
             </div>
-        );
-    }
+          );
+        }
 }
 
  

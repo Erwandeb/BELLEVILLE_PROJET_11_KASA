@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 export default class Card extends Component{
     
     render(){
-        
+        const { logement } = this.props;
         return(
             <div className="appartement">
                 <div className ="appartement-window">
-                   <p>{this.props.logement.title}</p>
-                   <Link key={`logement-${this.props.logement.id}`} to={`/logement/${this.props.logement.id}`}><img src={this.props.logement.cover} alt={this.props.logement.title}/></Link>
+                   <p>{logement.title}</p>
+                   <Link key={`logement-${logement.id}`} to={`/logement/${logement.id}`}><img src={logement.cover} alt={logement.title}/></Link>
                 </div>
             </div>
         )
