@@ -26,9 +26,8 @@ class LogementDetails extends Component {
     
     render(){
         console.log("valeur des props :",  this.props.match.params)
-        console.log("valeur des props2 :", this.props  )
+        console.log("valeur des props2 :", this.props)
         const { logementData } = this.props;
-       
         console.log(" variable logementData",logementData)
 
         return(
