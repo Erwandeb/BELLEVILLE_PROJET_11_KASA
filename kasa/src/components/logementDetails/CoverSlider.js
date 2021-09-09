@@ -6,11 +6,14 @@ export default class Cover extends Component{
     
     render(){
       
-        const { id } = this.props.match.params
+        
+        const { logement } = this.props
+
+
         return(
             <div className="cover-appartementDetails">
                 <div className ="img-cover-appartementDetails">
-                   <img src={this.props.logement.cover} alt={this.props.logement.title}/>
+                    <img src={logement.cover} alt={logement.title} label={logement.title}/>
                 </div>
             </div>
         )

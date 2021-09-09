@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import Footer from '../components/Footer';
-import Cover from '../components/logement/Cover';
+import CoverSlider from '../components/logementDetails/CoverSlider';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 
@@ -15,27 +15,22 @@ class LogementDetails extends Component {
     componentDidMount() {
         const { id } = this.props.match.params
         
-        
         fetch(`http://localhost:3000//annonces.json`)
         .then(res => res.json())
-        .then((result) => { console.log("testing result", result)
-            this.setState({logementData : this.props })}
-              
-            );
+        .then((result) => {
+            this.setState({logementData : result.find((annonce) => annonce.id === id ) })}
+        );
     }
     
     render(){
-        console.log("valeur des props :",  this.props.match.params)
-        console.log("valeur des props2 :", this.props)
-        const { logementData } = this.props;
-        console.log(" variable logementData",logementData)
+        const { logementData } = this.state;
 
         return(
             
             <div className="home">
                 <Logo />
                 <Navigation />
-                
+                <CoverSlider logement = {logementData} />
                 <Footer />
             </div>
         )

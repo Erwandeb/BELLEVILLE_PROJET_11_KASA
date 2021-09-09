@@ -1,0 +1,15 @@
+.cover-appartementDetails{
+    height: auto;
+    .img-cover-appartementDetails{
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 415px;
+            width: 70%;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+    }
+}
