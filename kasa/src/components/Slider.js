@@ -1,31 +1,32 @@
 import {Component} from 'react'
+import LogementDetails from '../pages/LogementDetails';
 
 export default class Slider extends Component {
 
     constructor(props){
         super(props)
         this.state = {
-            isOpened: false
+           logementData : {} 
         }
     }
 
-    renderDescription(){
-        if(this.state.isOpened){
-            return <div>
-                <p className ="description-text-accordeon">{this.props.description}</p>
-            </div>
-        }
-        return null;
-    }
-
+   
 
     render(){
-        return <div className="accordeon">
-        <div className={"about-Details"} onClick={() => this.setState({ isOpened: !this.state.isOpened })}>
-            <p>{this.props.title}</p>
-            <img src="./media/Arrow.png" alt="fleche tournante" className={this.state.isOpened ? 'opened' : ''} />
-        </div>
-        {this.renderDescription()}
-    </div>
+
+        const { logement } = this.props;
+
+        console.log(logement.pictures)
+       
+
+        return <div className="slider">
+                    <div className={"img-slider"}>
+                        <img src="./media/fleche-right.png" alt="fleche next" />
+                        <img src="./media/fleche-left.png" alt="fleche preview" />
+                        {logement.pictures.map((element , index)=> {
+                            return  <img src={element} alt="image appartement" />
+                        })}
+                    </div>
+                </div>
     }
 }

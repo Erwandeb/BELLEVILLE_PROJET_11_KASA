@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import Footer from '../components/Footer';
-import CoverSlider from '../components/logementDetails/CoverSlider';
+import Slider from '../components/Slider';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 
@@ -30,7 +30,7 @@ class LogementDetails extends Component {
             <div className="home">
                 <Logo />
                 <Navigation />
-                <CoverSlider logement = {logementData} />
+                <Slider logement = {logementData} />
                 <Footer />
             </div>
         )

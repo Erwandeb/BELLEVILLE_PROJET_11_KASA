@@ -9,7 +9,6 @@ export default class Cover extends Component{
         
         const { logement } = this.props
 
-
         return(
             <div className="cover-appartementDetails">
                 <div className ="img-cover-appartementDetails">
