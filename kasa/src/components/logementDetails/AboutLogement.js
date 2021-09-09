@@ -2,10 +2,17 @@ import {Component} from 'react';
 
 
 
-export default class AboutLogement extends Component{
-    
+class AboutLogement extends Component {
     render(){
         const { logement } = this.props;
+        /*
+        const testing = logement.map((detail)=> { 
+            return <p className="tags" key={`tags-${detail.tags}`}>{detail.tags}</p>
+        })
+    
+        console.log('testing', testing)
+
+        */ 
         return(
 
             <div className="about-corpus">
@@ -16,9 +23,7 @@ export default class AboutLogement extends Component{
                         <p>{logement.location}</p>
                     </div>
                     <div className ="tags-logement">
-                        {logement.tags.map((tags)=> {
-                            return <p className="tags" key={tags}> {tags}</p>
-                        })}
+                    
                     </div>
                 </div>
 
@@ -28,10 +33,13 @@ export default class AboutLogement extends Component{
                         <img key={logement.host.picture} src={logement.host.picture} alt ={logement.host.picture} />
                     </div>
                     <div className="rating">
-
+                        <h1>hello</h1>
                     </div>
                 </div>
+
             </div>
         )
     }
 }
+
+export default AboutLogement;

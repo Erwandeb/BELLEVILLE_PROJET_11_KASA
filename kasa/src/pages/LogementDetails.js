@@ -34,6 +34,7 @@ class LogementDetails extends Component {
                 <Navigation />
                 <Slider logement = {logementData} />
                 <AboutLogement logement = {logementData} />
+                <Accordeon/>
                 <Footer />
             </div>
         )
