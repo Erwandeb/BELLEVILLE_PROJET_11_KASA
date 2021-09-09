@@ -3,6 +3,8 @@ import Footer from '../components/Footer';
 import Slider from '../components/Slider';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
+import AboutLogement from '../components/logementDetails/AboutLogement';
+import Accordeon from '../components/Accordeon';
 
 
 class LogementDetails extends Component {
@@ -31,6 +33,7 @@ class LogementDetails extends Component {
                 <Logo />
                 <Navigation />
                 <Slider logement = {logementData} />
+                <AboutLogement logement = {logementData} />
                 <Footer />
             </div>
         )
