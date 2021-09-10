@@ -3,40 +3,34 @@ import {Component} from 'react';
 
 
 class AboutLogement extends Component {
-    render(){
-        const { logement } = this.props;
-        /*
-        const testing = logement.map((detail)=> { 
-            return <p className="tags" key={`tags-${detail.tags}`}>{detail.tags}</p>
-        })
     
-        console.log('testing', testing)
+    render(){
+        const { logementData } = this.props;
+        console.log("test", logementData)    
 
-        */ 
         return(
-
             <div className="about-corpus">
-
                 <div className="about-logement">
                     <div className ="Logement-title-and-location">
-                        <h1>{logement.title}</h1>
-                        <p>{logement.location}</p>
+                        <h1>{logementData.title}</h1>
+                        <p>{logementData.location}</p>
                     </div>
                     <div className ="tags-logement">
-                    
+                        {logementData.tags.map((detail) => {
+                            return <p className="tags" key={`tags-${detail}`}>{detail}</p>
+                        })}
                     </div>
                 </div>
 
                 <div className="about-host">
                     <div className="name-and-profilPicture">
-                        <p key={logement.host.name}>{logement.host.name}</p>
-                        <img key={logement.host.picture} src={logement.host.picture} alt ={logement.host.picture} />
+                        <p key={logementData.host.name}>{logementData.host.name}</p>
+                        <img key={logementData.host.picture} src={logementData.host.picture} alt ={logementData.host.picture} />
                     </div>
                     <div className="rating">
                         <h1>hello</h1>
                     </div>
                 </div>
-
             </div>
         )
     }

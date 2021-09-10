@@ -4,7 +4,7 @@ import Slider from '../components/Slider';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 import AboutLogement from '../components/logementDetails/AboutLogement';
-import Accordeon from '../components/Accordeon';
+import LogementDetailsWrapper from '../components/logementDetails/LogementDetailsWrapper';
 
 
 class LogementDetails extends Component {
@@ -32,9 +32,9 @@ class LogementDetails extends Component {
             <div className="home">
                 <Logo />
                 <Navigation />
-                <Slider logement = {logementData} />
-                <AboutLogement logement = {logementData} />
-                <Accordeon/>
+                <Slider logementData = {logementData} />
+                <AboutLogement logementData = {logementData} />
+                <LogementDetailsWrapper logementData = {logementData} />
                 <Footer />
             </div>
         )

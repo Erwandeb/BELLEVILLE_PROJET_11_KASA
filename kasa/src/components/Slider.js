@@ -14,8 +14,8 @@ class Slider extends Component {
 
     render(){
 
-        const { logement } = this.props;
-        console.log(logement.pictures);
+        const { logementData } = this.props;
+        console.log(logementData.pictures);
         
 
         return <div className="slider">

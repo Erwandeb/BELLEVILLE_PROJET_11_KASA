@@ -8,20 +8,41 @@ class GridHomePage extends Component {
     
     constructor(props) {
         super(props);
-        this.state = { items: [] };
+        this.state = { 
+            error : null,
+            isLoaded :false,
+            items: [] 
+        };
     }
 
 
     componentDidMount() {
         fetch(`http://localhost:3000//annonces.json`)
         .then(res => res.json())
-        .then((result) => { this.setState({ items: result })},)
+        .then( 
+            (result) => {this.setState({
+                isLoaded:true, 
+                items: result 
+            });
+        },
+            (error) => {this.setState({
+                isLoaded: true, 
+                error});
+            }
+        )
     }
-    
+      
+
 
     render() {
-        const { items } = this.state;
-
+      
+        const { error, isLoaded, items } = this.state;
+        if (error) {
+        return <div>Erreur !</div>;
+        } else if (!isLoaded) {
+        return <div>Chargement…</div>;
+        } else {
+        
         return (
             <div className="logements">
                 <div className ="logement-list">
@@ -35,8 +56,8 @@ class GridHomePage extends Component {
             </div>
           );
         }
-}
+    }
 
- 
+}
 
 export default GridHomePage;
