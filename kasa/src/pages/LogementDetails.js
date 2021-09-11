@@ -32,9 +32,7 @@ class LogementDetails extends Component {
             <div className="home">
                 <Logo />
                 <Navigation />
-                <Slider logementData = {logementData} />
-                <AboutLogement logementData = {logementData} />
-                <LogementDetailsWrapper logementData = {logementData} />
+                
                 <Footer />
             </div>
         )
