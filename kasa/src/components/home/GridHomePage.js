@@ -37,6 +37,8 @@ class GridHomePage extends Component {
     render() {
       
         const { error, isLoaded, items } = this.state;
+        console.log("test", items)
+
         if (error) {
         return <div>Erreur !</div>;
         } else if (!isLoaded) {

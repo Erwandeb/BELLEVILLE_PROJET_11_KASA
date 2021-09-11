@@ -26,13 +26,15 @@ class LogementDetails extends Component {
     
     render(){
         const { logementData } = this.state;
-
+        console.log(logementData);
         return(
             
             <div className="home">
                 <Logo />
                 <Navigation />
-                
+                <Slider logementData = {logementData} />
+                <AboutLogement logementData = {logementData} />
+                <LogementDetailsWrapper logementData = {logementData} />
                 <Footer />
             </div>
         )
