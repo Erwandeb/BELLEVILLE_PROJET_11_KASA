@@ -1,0 +1,29 @@
+.slider{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    .slider-window{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        .imageSlider{
+            height: 415px;
+            border-radius: 25px;
+            object-fit: cover;
+        }
+    }
+}
+
+.arrow-right{
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    font-weight: 900;
+}
+.arrow-left{
+    position: absolute;
+    left: 5%;
+    bottom: 50%;
+    font-weight: 900;
+}

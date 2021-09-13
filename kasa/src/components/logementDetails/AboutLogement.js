@@ -28,7 +28,7 @@ class AboutLogement extends Component {
                         <img key={logementData.host.picture} src={logementData.host.picture} alt ={logementData.host.picture} />
                     </div>
                     <div className="rating">
-                        <h1>hello</h1>
+                        
                     </div>
                 </div>
             </div>
