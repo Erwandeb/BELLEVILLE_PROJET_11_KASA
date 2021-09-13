@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import starRating from './StarRating';
 
 
 
@@ -7,6 +8,8 @@ class AboutLogement extends Component {
     render(){
         const { logementData } = this.props;
         console.log("test", logementData)    
+
+        
 
         return(
             <div className="about-corpus">
@@ -28,7 +31,7 @@ class AboutLogement extends Component {
                         <img key={logementData.host.picture} src={logementData.host.picture} alt ={logementData.host.picture} />
                     </div>
                     <div className="rating">
-                        
+                        <starRating />
                     </div>
                 </div>
             </div>
