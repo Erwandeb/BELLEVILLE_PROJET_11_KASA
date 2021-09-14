@@ -1,25 +1,19 @@
 import {Component} from 'react';
-import Rating from 'react-rating';
+
 
 
 class StarRating extends Component {
        
-    constructor(props) {
-        super(props);
-        this.state = {
-            rating : null,
-        };
-    }
-
+    
 
     render(){
      
-        const {rating} = this.props
-
+        const { logementData } = this.props;
+        console.log(logementData)
 
         return(
             <div className="rating ">
-                <Rating rating="2" />
+               
             </div>
         )
     }

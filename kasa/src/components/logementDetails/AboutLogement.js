@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Rating from 'react-rating';
 import StarRating from './StarRating';
 
 
@@ -32,7 +31,7 @@ class AboutLogement extends Component {
                         <img key={logementData.host.picture} src={logementData.host.picture} alt ={logementData.host.picture} />
                     </div>
                     <div className="rating">
-                        <Rating rating= {logementData.rating} />
+                     
                     </div>
                 </div>
             </div>

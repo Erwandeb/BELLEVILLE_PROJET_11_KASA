@@ -14,7 +14,7 @@
             .about-Details{
                 display: flex;
                 justify-content: space-between;
-                width: 582px ;
+                width: 582px;
                 height: 52px;
                 background-color: $main-color;
                 color: white;
@@ -24,15 +24,17 @@
                 padding-left: 2%;
                 align-items: center;
                 margin-bottom: 30px;
-                .description-text-accordeon{
-                    padding-right: 0px;
-                    padding-left: 0px;
-                    display: none;
-                    li{
-                       padding-bottom: 5px;
-                    }
-                }
             }
         }    
+    }
+}
+
+.description-text-accordeon{
+    padding-right: 5px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    li{
+       padding-bottom: 5px;
     }
 }

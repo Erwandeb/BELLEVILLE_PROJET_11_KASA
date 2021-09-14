@@ -20,10 +20,6 @@ class SliderDisplay extends Component {
         }
         
         
-
-
-    
-
         return <div className="slider">
                     <div className="slider-window">
                         <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right"/>
