@@ -1,10 +1,11 @@
 import {Component} from 'react';
 import Footer from '../components/Footer';
-import Slider from '../components/logementDetails/Slider';
 import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 import AboutLogement from '../components/logementDetails/AboutLogement';
 import LogementDetailsWrapper from '../components/logementDetails/LogementDetailsWrapper';
+import starRating from '../components/logementDetails/StarRating';
+import SliderDisplay from '../components/logementDetails/SliderDisplay';
 
 
 class LogementDetails extends Component {
@@ -37,7 +38,6 @@ class LogementDetails extends Component {
     render(){
        
             const { error, isLoaded, logementData} = this.state;
-            console.log(logementData);
 
             if (error) {
                 return <div>Erreur !</div>;
@@ -50,7 +50,7 @@ class LogementDetails extends Component {
                 <div className="home">
                     <Logo />
                     <Navigation />
-                    <Slider logementData = {logementData} />
+                    <SliderDisplay logementData = {logementData} />
                     <AboutLogement logementData = {logementData} />
                     <LogementDetailsWrapper logementData = {logementData} />
                     <Footer />

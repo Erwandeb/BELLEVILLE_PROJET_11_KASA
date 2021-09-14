@@ -4,26 +4,30 @@ import Accordeon from '../Accordeon';
 class LogementDetailsWrapper extends Component {
  
     render(){
-            
-    
-
+        
+        const {logementData} = this.props;
 
         // fonction bouton affichage 
-        const btnToDisplay = document.querySelectorAll(".about-Details")
-        btnToDisplay.forEach(btn => btn.addEventListener('click', displayText()) )
+       
+        
         const displayText = (btn) => {
             btn.style.display ="block";
         }
-       
-       
-        const {logementData} = this.props;
-        const {description} = logementData.description
+        const btnToDisplay = document.querySelectorAll(".about-Details");
+        btnToDisplay.forEach(btn => btn.addEventListener('click', displayText() ));
+          
         return(
             <div className="wrapper-logement-details">
+               <div className="wrapper-container">
                 <Accordeon 
-                    title={"description"}
-                    description={description}
-                />
+                        title={"Description"}
+                        description={logementData.description}
+                    />
+                    <Accordeon 
+                        title={"Equipements"}
+                        description={logementData.equipments.map((item)=> <li key={item}>{item}</li>)}
+                    />
+                </div> 
             </div>
         )
     }

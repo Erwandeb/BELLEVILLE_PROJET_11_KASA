@@ -2,23 +2,27 @@ import {Component} from 'react';
 import Rating from 'react-rating';
 
 
-class starRating extends Component {
-
+class StarRating extends Component {
+       
+    constructor(props) {
+        super(props);
+        this.state = {
+            rating : null,
+        };
+    }
 
 
     render(){
-        const { logementData } = this.props;
-        
-        console.log("test", logementData)    
+     
+        const {rating} = this.props
 
-        
 
         return(
             <div className="rating ">
-                <Rating rating={this.props.rating}/>
+                <Rating rating="2" />
             </div>
         )
     }
 }
 
-export default starRating;
+export default StarRating;
