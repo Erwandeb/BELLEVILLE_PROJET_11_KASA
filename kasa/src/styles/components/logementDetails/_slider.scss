@@ -5,12 +5,14 @@
     margin-bottom: 5%;
     .slider-window{
         display: flex;
-        width: 80%;
+        width: 100%;
         justify-content: center;
         .imageSlider{
             height: 415px;
             border-radius: 25px;
             object-fit: cover;
+            flex-shrink: 0;
+            width: 100%;
         }
     }
 }

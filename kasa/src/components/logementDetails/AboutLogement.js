@@ -9,8 +9,8 @@ class AboutLogement extends Component {
         const { logementData } = this.props;
         console.log("props of AboutLogement", logementData)    
 
-        
-
+    
+    
         return(
             <div className="about-corpus">
                 <div className="about-logement">
@@ -31,7 +31,7 @@ class AboutLogement extends Component {
                         <img key={logementData.host.picture} src={logementData.host.picture} alt ={logementData.host.picture} />
                     </div>
                     <div className="rating">
-                     
+                     <StarRating rating={logementData.rating}/>
                     </div>
                 </div>
             </div>

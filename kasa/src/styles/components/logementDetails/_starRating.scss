@@ -1,0 +1,23 @@
+.rating{
+    display: flex;
+    justify-content: flex-end;
+    .stars{
+        margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-width:426px){
+   
+   .rating{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        .stars{
+            width: 15px;
+            height: 15px;
+        }
+    }
+    
+}

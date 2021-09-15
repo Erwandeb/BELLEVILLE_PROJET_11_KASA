@@ -5,6 +5,7 @@ $font:'Montserrat', sans-serif;
 
 $main-color:#FF6060;
 $background-color:#E5E5E5;
+$main-background:#FFFFFF;
 
 *{
     box-sizing: border-box;
@@ -17,7 +18,7 @@ html{
 }
 
 body{
-    background-color: $background-color;
+    background-color: $main-background;
     font-family: $font;
     color: $main-color;
     min-height: auto;

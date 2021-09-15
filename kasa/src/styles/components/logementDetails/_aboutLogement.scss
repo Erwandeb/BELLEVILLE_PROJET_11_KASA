@@ -41,7 +41,9 @@
     }
     
     .about-host{
-       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin-right: 5%;
         .name-and-profilPicture{
             display: flex;
@@ -114,8 +116,13 @@
         }
         
         .about-host{
-            margin-right: 5%;
+            margin-right: 0px;
             margin-top: 30px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            margin-left: 5%;
+            margin-right: 5%;
             .name-and-profilPicture{
                 display: flex;
                 justify-content: center;
