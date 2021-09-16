@@ -2,30 +2,49 @@
     width: 100%;
     position: relative;
     overflow: hidden;
+    margin-top: 1%;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
     .slider-window{
         display: flex;
-        width: 100%;
+        width: 90%;
         justify-content: center;
-        .imageSlider{
-            height: 415px;
-            border-radius: 25px;
-            object-fit: cover;
-            flex-shrink: 0;
-            width: 100%;
+        overflow: hidden;
+        border-radius: 25px;
+        .slider-derouler{
+            display: flex;
+            .imageSlider{
+                height: 415px;
+                border-radius: 25px;
+                object-fit: cover;
+                flex-shrink: 0;
+                width: 100%;
+                //transform: translateX(-100%);
+            }
         }
     }
 }
 
 .arrow-right{
     position: absolute;
-    right: 5%;
-    bottom: 50%;
+    right: 7%;
+    bottom: 45%;
     font-weight: 900;
+    cursor: pointer;
+    &:hover{
+        transform:scale(1.08);
+        transition: 0.1s ease-in-out;
+    }
 }
 .arrow-left{
     position: absolute;
-    left: 5%;
-    bottom: 50%;
+    left: 7%;
+    bottom: 45%;
     font-weight: 900;
+    cursor: pointer;
+    &:hover{
+        transform:scale(1.08);
+        transition: 0.1s ease-in-out;
+    }
 }
