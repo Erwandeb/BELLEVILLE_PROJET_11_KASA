@@ -28,7 +28,6 @@ class SliderDisplay extends Component {
         console.log("current is", current)
 
         
-
         let showImages;
         if(logementData){
             showImages = logementData.pictures.map((photo) => {
@@ -38,9 +37,7 @@ class SliderDisplay extends Component {
             showImages = "loading"
         }
         
-    
-
-        
+            
         return <div className="slider">
                     <div className="slider-window">
                         <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right" onClick={nextSlide}/>
@@ -48,7 +45,6 @@ class SliderDisplay extends Component {
                         <div className="slider-derouler">
                             {showImages}
                         </div>
-                        
                     </div>
                 </div>
     }
