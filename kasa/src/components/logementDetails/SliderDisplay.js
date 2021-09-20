@@ -8,22 +8,30 @@ class SliderDisplay extends Component {
         this.state = { 
             currentImageIndex: 0
         };
-
-
     }
+
 
     render(){
 
         const { logementData } = this.props;
-        console.log('logement data ? ', logementData)
+        console.log('logement data  ', logementData)
         const length = logementData.pictures.length;
         const current = 0;
-       
-       
+        let counter = 1;
+
+        const sliderDerouler = document.getElementById('slider-derouler-id');
+        console.log("sliderDerouler", sliderDerouler)
         
-        const nextSlide = () => (current === length - 1 ? 0 : current + 1);
-        const prevSlide = () => (current === 0 ? length - 1 : current - 1);
-        
+        function nextSlide(){
+            sliderDerouler.style.transform ='translateX('+(-counter)+'px)';
+            counter++;
+        }
+
+        function prevSlide(){
+            sliderDerouler.style.transform ='translateX('+(-10*counter)+'px)';
+            counter--;
+        }
+
         console.log("length", length)
         console.log("current is", current)
 
@@ -40,9 +48,10 @@ class SliderDisplay extends Component {
             
         return <div className="slider">
                     <div className="slider-window">
-                        <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right" onClick={nextSlide}/>
-                        <img src="../media/fleche-left.png" alt="fleche preview" className="arrow-left" onClick={prevSlide} />
-                        <div className="slider-derouler">
+                        <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right" />
+                        <img src="../media/fleche-left.png" alt="fleche preview" className="arrow-left" />
+                        <p className="length-indicatif">{current}/{length}</p>
+                        <div className="slider-derouler" id="slider-derouler-id">
                             {showImages}
                         </div>
                     </div>
