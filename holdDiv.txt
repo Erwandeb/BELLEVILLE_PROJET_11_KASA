@@ -1,0 +1,77 @@
+  <div className="about-logement">
+                    <div className ="Logement-title-and-location">
+                        <h1>{logement.title}</h1>
+                        <p>{logement.location}</p>
+                    </div>
+                    <div className ="tags-logement">
+                        {logement.tags.map((detail)=> { 
+                            return <p className="tags" key={`tags-${detail.tags}`}>{detail.tags}</p>
+                        })}
+                    </div>
+                </div>
+
+                <div className="about-host">
+                    <div className="name-and-profilPicture">
+                        <p key={logement.host.name}>{logement.host.name}</p>
+                        <img key={logement.host.picture} src={logement.host.picture} alt ={logement.host.picture} />
+                    </div>
+                    <div className="rating">
+                        <h1>hello</h1>
+                    </div>
+                </div>
+
+
+
+ <div className="about-corpus">
+                <div className="about-logement">
+                    <div className ="Logement-title-and-location">
+                        <h1>{logement.title}</h1>
+                        <p>{logement.location}</p>
+                    </div>
+                    <div className ="tags-logement">
+                        {logement.tags.map((detail) => {
+                            return <p className="tags" key={`tags-${detail}`}>{detail}</p>
+                        })}
+                    </div>
+                </div>
+
+                <div className="about-host">
+                    <div className="name-and-profilPicture">
+                        <p key={logement.host.name}>{logement.host.name}</p>
+                        <img key={logement.host.picture} src={logement.host.picture} alt ={logement.host.picture} />
+                    </div>
+                    <div className="rating">
+                        <h1>hello</h1>
+                    </div>
+                </div>
+            </div>
+
+ <AboutLogement logement = {logementData} />
+
+ <AboutLogement logement = {logementData} />
+
+     <Slider logement = {logementData} />
+     <AboutLogement logement = {logementData} />
+
+
+
+    {
+                    logement.description.map( item => 
+                        <Accordeon 
+                            title={"description"}
+                            description={item.description}
+                        />
+                    )
+                }
+
+
+ <Slider logement = {logementData} />
+                <AboutLogement logement = {logementData} />
+                <LogementDetailsWrapper logementData = {logementData} />
+
+
+
+
+		<Slider logementData = {logementData} />
+                <AboutLogement logementData = {logementData} />
+                <LogementDetailsWrapper logementData = {logementData} />

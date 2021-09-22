@@ -1,0 +1,44 @@
+
+class Logement extends Component {
+
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+            instructors: [],
+            instructorID : props.match.params.instructorID,
+            title: []
+
+        };
+    }
+
+    componentDidMount() {
+        fetch("./annonces.json")
+            .then(res => res.json())
+            .then((result) => {
+                this.setState({
+                instructors: result
+            });
+            },
+            )
+    }
+    
+
+    render(){
+        //console.log("houra",this.props.match.description)
+        //console.log("yooo",this.props)
+        // console.log("testing",this.props.match)
+     
+        return(
+            <div className="home">
+                <Logo />
+                <Navigation />
+                {this.props.match.params.id}
+                <Footer />
+
+            </div>
+        )
+    }
+}
+
+export default Logement;
