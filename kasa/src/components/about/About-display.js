@@ -10,18 +10,9 @@ class Aboutdisplay extends Component {
         };
     }
 
-    componentDidMount(){
-        
-    }
-    
+
     render(){
         
-       
-        const btnToDisplay = document.querySelectorAll(".about-Details");
-        const displayText = (btn) => {btn.style.display ="block"};
-        btnToDisplay.forEach(btn => btn.addEventListener('click', displayText()) );
-       
-
         return(
             this.state.isLoaded ? 
             (   

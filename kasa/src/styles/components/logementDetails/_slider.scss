@@ -13,6 +13,7 @@
         overflow: hidden;
         border-radius: 25px;
         .slider-derouler{
+            transition: translate .5s linear;
             display: flex;
             .imageSlider{
                 height: 415px;
@@ -32,6 +33,7 @@
     bottom: 45%;
     font-weight: 900;
     cursor: pointer;
+    z-index: 1000;
     &:hover{
         transform:scale(1.08);
         transition: 0.1s ease-in-out;
@@ -39,6 +41,7 @@
 }
 .arrow-left{
     position: absolute;
+    z-index: 1000;
     left: 7%;
     bottom: 45%;
     font-weight: 900;
@@ -55,4 +58,5 @@
     font-size: 18px;
     color: white;
     font-weight: 500;
+    z-index: 1000;
 }
