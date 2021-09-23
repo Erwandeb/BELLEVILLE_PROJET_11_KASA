@@ -4,7 +4,6 @@ import Logo from '../components/logo';
 import Navigation from '../components/Navigation';
 import AboutLogement from '../components/logementDetails/AboutLogement';
 import LogementDetailsWrapper from '../components/logementDetails/LogementDetailsWrapper';
-import starRating from '../components/logementDetails/StarRating';
 import SliderDisplay from '../components/logementDetails/SliderDisplay';
 
 

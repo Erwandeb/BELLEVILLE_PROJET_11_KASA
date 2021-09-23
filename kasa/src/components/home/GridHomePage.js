@@ -1,9 +1,6 @@
 import {Component} from 'react';
 import Card from './Card';
 
-
-
-
 class GridHomePage extends Component {
     
     constructor(props) {
@@ -14,7 +11,6 @@ class GridHomePage extends Component {
             items: [] 
         };
     }
-
 
     componentDidMount() {
         fetch(`http://localhost:3000//annonces.json`)
@@ -32,12 +28,9 @@ class GridHomePage extends Component {
         )
     }
       
-
-
     render() {
       
         const { error, isLoaded, items } = this.state;
-        console.log("test", items)
 
         if (error) {
         return <div>Erreur !</div>;

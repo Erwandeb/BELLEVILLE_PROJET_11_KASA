@@ -1,15 +1,10 @@
 import {Component} from 'react';
 import StarRating from './StarRating';
 
-
-
 class AboutLogement extends Component {
     
     render(){
         const { logementData } = this.props;
-        console.log("props of AboutLogement", logementData)    
-
-    
     
         return(
             <div className="about-corpus">

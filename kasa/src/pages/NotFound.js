@@ -15,7 +15,6 @@ class NotFound extends Component {
                         <p>Oups ! La page que vous demandez n'existe pas.</p>
                         <a href="http://localhost:3000/"> Retournez sur la page d'accueil</a>
                     </div>
-                    
                 </div>
                 <Footer />
             </div>

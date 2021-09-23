@@ -2,3 +2,14 @@
     position: absolute;
     margin: 1% 1% 1% 2%;
 }
+
+@media screen and (max-width:426px){
+    .logo{
+        margin-left: 10px;
+        a{
+            img{
+                margin-left: 20px;
+            }
+        }
+    }
+}

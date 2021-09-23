@@ -10,7 +10,6 @@
         flex-direction: column;
         width: 75%;
         .about-Details{
-            color: $background-color;
             background-color: $main-color;
             margin-top: 1%;
             margin-bottom: 1%;
@@ -21,6 +20,9 @@
             align-items: center;
             border-radius: 5px; 
             justify-content: space-between;
+            p{
+                color: white;
+            }
         }
     }
 }

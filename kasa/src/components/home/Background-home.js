@@ -10,7 +10,6 @@ class BackgroundHome extends Component {
                 <div className="slogan-home">
                     <p> Chez vous, partout et ailleurs</p>
                 </div>
-                
             </div>
         )
     }

@@ -10,7 +10,6 @@ class Aboutdisplay extends Component {
         };
     }
 
-
     render(){
         
         return(
@@ -22,6 +21,7 @@ class Aboutdisplay extends Component {
                     <Accordeon 
                         title={item.value}
                         description={item.text}
+                        key={item.text}
                     />
                 )
             }
@@ -34,12 +34,12 @@ class Aboutdisplay extends Component {
                     <Accordeon 
                         title={item.value}
                         description={item.text}
+                        key={item.text}
                     />
                 )
             }
             </div>
         )
-         
         )
     }
 }

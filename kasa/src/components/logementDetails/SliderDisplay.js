@@ -32,28 +32,9 @@ class SliderDisplay extends Component {
     render(){
 
         const { logementData } = this.props;
-        console.log('logement data  ', logementData)
         const length = logementData.pictures.length;
-        const current = 0;
-        let counter = 1;
-
-        const sliderDerouler = document.getElementById('slider-derouler-id');
-        console.log("sliderDerouler", sliderDerouler)
-        
-        function nextSlide(){
-            sliderDerouler.style.transform ='translateX('+(-counter)+'px)';
-            counter++;
-        }
-
-        function prevSlide(){
-            sliderDerouler.style.transform ='translateX('+(-10*counter)+'px)';
-            counter--;
-        }
-
-        console.log("length", length)
-        console.log("current is", current)
-
-        
+    
+        // Affichage des photos
         let showImages;
         if(logementData){
             showImages = logementData.pictures.map((photo) => {
@@ -63,15 +44,22 @@ class SliderDisplay extends Component {
             showImages = "loading"
         }
         
+        //Affichages des flèches
         let arrowRight =  <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right" onClick={() => this.onNextSlide()} />
             if(logementData.pictures.length === 1){
                 arrowRight = "";
             }
+
+        let arrowLeft =  <img src="../media/fleche-left.png" alt="fleche previous" className="arrow-left" onClick={() => this.onPrevSlide()} />
+            if(logementData.pictures.length === 1){
+                arrowLeft = "";
+            }
+        
             
         return <div className="slider">
                     <div className="slider-window">
                         {arrowRight}
-                        <img src="../media/fleche-left.png" alt="fleche preview" className="arrow-left" onClick={() => this.onPrevSlide()} />
+                        {arrowLeft}
                         <p className="length-indicatif">{this.state.currentImageIndex}/{length}</p>
                         <div className="slider-derouler" id="slider-derouler-id" style={{transform: `translateX(${-(this.state.currentImageIndex - 1) * 100}%)`}}>
                             {showImages}

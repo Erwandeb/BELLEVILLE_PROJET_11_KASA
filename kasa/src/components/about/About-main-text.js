@@ -12,7 +12,6 @@ class AboutMainText extends Component {
         ]
     }
     
-    
     render(){
         let {details} = this.state;
           
