@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/css/main.67fc0ee0.chunk.css",
+    "main.js": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/main.4bb4e020.chunk.js",
+    "main.js.map": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/main.4bb4e020.chunk.js.map",
+    "runtime-main.js": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.3857861f.js",
+    "runtime-main.js.map": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.3857861f.js.map",
+    "static/js/2.62c8ff17.chunk.js": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js",
+    "static/js/2.62c8ff17.chunk.js.map": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js.map",
+    "static/js/3.8bc68137.chunk.js": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js",
+    "static/js/3.8bc68137.chunk.js.map": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js.map",
+    "index.html": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/index.html",
+    "static/css/main.67fc0ee0.chunk.css.map": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/css/main.67fc0ee0.chunk.css.map",
+    "static/js/2.62c8ff17.chunk.js.LICENSE.txt": "/Erwandeb/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3857861f.js",
+    "static/js/2.62c8ff17.chunk.js",
+    "static/css/main.67fc0ee0.chunk.css",
+    "static/js/main.4bb4e020.chunk.js"
+  ]
+}
