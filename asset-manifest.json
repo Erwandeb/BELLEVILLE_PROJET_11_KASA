@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/BELLEVILLE_PROJET_11_KASA/static/css/main.f1f2671a.chunk.css",
-    "main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/main.4bb4e020.chunk.js",
-    "main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/main.4bb4e020.chunk.js.map",
-    "runtime-main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js",
-    "runtime-main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js.map",
-    "static/js/2.62c8ff17.chunk.js": "/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js",
-    "static/js/2.62c8ff17.chunk.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js.map",
-    "static/js/3.8bc68137.chunk.js": "/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js",
-    "static/js/3.8bc68137.chunk.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js.map",
-    "index.html": "/BELLEVILLE_PROJET_11_KASA/index.html",
-    "static/css/main.f1f2671a.chunk.css.map": "/BELLEVILLE_PROJET_11_KASA/static/css/main.f1f2671a.chunk.css.map",
-    "static/js/2.62c8ff17.chunk.js.LICENSE.txt": "/BELLEVILLE_PROJET_11_KASA/static/js/2.62c8ff17.chunk.js.LICENSE.txt"
+    "main.css": "/kasa/static/css/main.f1f2671a.chunk.css",
+    "main.js": "/kasa/static/js/main.4bb4e020.chunk.js",
+    "main.js.map": "/kasa/static/js/main.4bb4e020.chunk.js.map",
+    "runtime-main.js": "/kasa/static/js/runtime-main.1ec8d5ba.js",
+    "runtime-main.js.map": "/kasa/static/js/runtime-main.1ec8d5ba.js.map",
+    "static/js/2.62c8ff17.chunk.js": "/kasa/static/js/2.62c8ff17.chunk.js",
+    "static/js/2.62c8ff17.chunk.js.map": "/kasa/static/js/2.62c8ff17.chunk.js.map",
+    "static/js/3.8bc68137.chunk.js": "/kasa/static/js/3.8bc68137.chunk.js",
+    "static/js/3.8bc68137.chunk.js.map": "/kasa/static/js/3.8bc68137.chunk.js.map",
+    "index.html": "/kasa/index.html",
+    "static/css/main.f1f2671a.chunk.css.map": "/kasa/static/css/main.f1f2671a.chunk.css.map",
+    "static/js/2.62c8ff17.chunk.js.LICENSE.txt": "/kasa/static/js/2.62c8ff17.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e774817.js",
+    "static/js/runtime-main.1ec8d5ba.js",
     "static/js/2.62c8ff17.chunk.js",
     "static/css/main.f1f2671a.chunk.css",
     "static/js/main.4bb4e020.chunk.js"
