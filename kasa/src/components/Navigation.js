@@ -5,7 +5,7 @@ class Navigation extends Component {
     render(){
         return(
             <div className="navigation">
-                <NavLink exact to ="/" activeClassName ="nav-active">
+                <NavLink exact to ="/home" activeClassName ="nav-active">
                     Accueil
                 </NavLink>
                 <NavLink exact to ="/a-propos" activeClassName ="nav-active">
