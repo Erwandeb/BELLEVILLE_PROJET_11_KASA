@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home}/>
+          <Route path="/home" exact component={Home}/>
           <Route path="/a-propos" component={About}/>
           <Route path="/logement/:id" exact strict render={(props) => <LogementDetails {...props}/>}/>
           <Route component={NotFound}/>

@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://erwandeb.github.io/BELLEVILLE_PROJET_11_KASA/",
+  "homepage": "https://erwandeb.github.io/BELLEVILLE_PROJET_11_KASA/home",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
