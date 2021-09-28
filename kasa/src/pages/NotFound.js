@@ -13,7 +13,7 @@ class NotFound extends Component {
                     <div className="container-notFound-text">
                         <h1>404</h1>
                         <p>Oups ! La page que vous demandez n'existe pas.</p>
-                        <a href="/home"> Retournez sur la page d'accueil</a>
+                        <a href="https://erwandeb.github.io/BELLEVILLE_PROJET_11_KASA/"> Retournez sur la page d'accueil</a>
                     </div>
                 </div>
                 <Footer />
