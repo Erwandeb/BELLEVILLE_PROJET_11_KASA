@@ -6,7 +6,7 @@ class Logo extends Component {
     render(){
         return(
             <div className="logo">
-                <Link to={`/`}> <img src={logo} alt="logo de kasa"/></Link>
+                <Link to={`/home`}> <img src={logo} alt="logo de kasa"/></Link>
             </div>
         )
     }
