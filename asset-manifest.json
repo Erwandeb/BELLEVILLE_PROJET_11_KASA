@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/BELLEVILLE_PROJET_11_KASA/static/css/main.8ac3b08b.chunk.css",
-    "main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/main.625cec3e.chunk.js",
-    "main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/main.625cec3e.chunk.js.map",
+    "main.css": "/BELLEVILLE_PROJET_11_KASA/static/css/main.665d9cb0.chunk.css",
+    "main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/main.0f969ceb.chunk.js",
+    "main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/main.0f969ceb.chunk.js.map",
     "runtime-main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js",
     "runtime-main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js.map",
     "static/js/2.14bba4af.chunk.js": "/BELLEVILLE_PROJET_11_KASA/static/js/2.14bba4af.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8bc68137.chunk.js": "/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js",
     "static/js/3.8bc68137.chunk.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/3.8bc68137.chunk.js.map",
     "index.html": "/BELLEVILLE_PROJET_11_KASA/index.html",
-    "static/css/main.8ac3b08b.chunk.css.map": "/BELLEVILLE_PROJET_11_KASA/static/css/main.8ac3b08b.chunk.css.map",
+    "static/css/main.665d9cb0.chunk.css.map": "/BELLEVILLE_PROJET_11_KASA/static/css/main.665d9cb0.chunk.css.map",
     "static/js/2.14bba4af.chunk.js.LICENSE.txt": "/BELLEVILLE_PROJET_11_KASA/static/js/2.14bba4af.chunk.js.LICENSE.txt",
     "static/media/IMG.ac3aa739.png": "/BELLEVILLE_PROJET_11_KASA/static/media/IMG.ac3aa739.png",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg": "/BELLEVILLE_PROJET_11_KASA/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e774817.js",
     "static/js/2.14bba4af.chunk.js",
-    "static/css/main.8ac3b08b.chunk.css",
-    "static/js/main.625cec3e.chunk.js"
+    "static/css/main.665d9cb0.chunk.css",
+    "static/js/main.0f969ceb.chunk.js"
   ]
 }
