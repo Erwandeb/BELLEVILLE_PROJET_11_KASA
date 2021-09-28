@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import backgroundHome from '../media/IMG.png';
+import backgroundHome from '../../public/media/IMG.png';
 
 class BackgroundHome extends Component {
     render(){

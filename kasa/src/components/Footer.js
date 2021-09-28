@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import logoNB from '../media/logo_kasa_white.png';
+import logoNB from '../public/logo_kasa_white.png';
 
 class Footer extends Component {
     render(){

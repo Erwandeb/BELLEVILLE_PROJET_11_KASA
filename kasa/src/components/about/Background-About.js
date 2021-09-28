@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import backgroundAbout from '../media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg'
+import backgroundAbout from '../../public/media/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg'
 
 class BackgroundAbout extends Component {
     render(){

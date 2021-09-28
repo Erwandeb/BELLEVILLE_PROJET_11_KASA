@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import arrow from '../media/Arrow.png';
+import arrow from '../public/media/Arrow.png';
 
 export default class Accordeon extends Component {
 

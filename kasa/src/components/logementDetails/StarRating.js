@@ -1,7 +1,7 @@
 import {Component} from 'react';
 import shortid from 'shortid';
-import redStarImg from '../media/redStar.png';
-import greyStarImg from '../media/emptyStar.png';
+import redStarImg from '../../public/media/redStar.png';
+import greyStarImg from '../../public/media/emptyStar.png';
 
 
 class StarRating extends Component {
