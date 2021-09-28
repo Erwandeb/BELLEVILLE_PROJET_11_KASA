@@ -1,6 +1,6 @@
 import {Component} from 'react'
-import flecheLeft from '../../src/media/fleche-left.png';
-import flecheRight from '../../src/media/fleche-right.png';
+import flecheLeft from '../media/fleche-left.png';
+import flecheRight from '../media/fleche-right.png';
 
 
 class SliderDisplay extends Component {
