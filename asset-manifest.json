@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BELLEVILLE_PROJET_11_KASA/static/css/main.f1f2671a.chunk.css",
-    "main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/main.563b6dbc.chunk.js",
-    "main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/main.563b6dbc.chunk.js.map",
+    "main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/main.625cec3e.chunk.js",
+    "main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/main.625cec3e.chunk.js.map",
     "runtime-main.js": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js",
     "runtime-main.js.map": "/BELLEVILLE_PROJET_11_KASA/static/js/runtime-main.1e774817.js.map",
     "static/js/2.14bba4af.chunk.js": "/BELLEVILLE_PROJET_11_KASA/static/js/2.14bba4af.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1e774817.js",
     "static/js/2.14bba4af.chunk.js",
     "static/css/main.f1f2671a.chunk.css",
-    "static/js/main.563b6dbc.chunk.js"
+    "static/js/main.625cec3e.chunk.js"
   ]
 }
