@@ -13,7 +13,7 @@ class GridHomePage extends Component {
     }
 
     componentDidMount() {
-        fetch(`../annonces.json`)
+        fetch(process.env.PUBLIC_URL + '/annonces.json')
         .then(res => res.json())
         .then( 
             (result) => {this.setState({

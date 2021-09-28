@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import arrow from '../media/Arrow.png';
 
 export default class Accordeon extends Component {
 
@@ -23,7 +24,7 @@ export default class Accordeon extends Component {
         return <div className="accordeon">
         <div className={"about-Details"} onClick={() => this.setState({ isOpened: !this.state.isOpened })}>
             <p>{this.props.title}</p>
-            <img src="../media/Arrow.png" alt="fleche tournante" className={this.state.isOpened ? 'opened' : ''} />
+            <img src={arrow} alt="fleche tournante" className={this.state.isOpened ? 'opened' : ''} />
         </div>
         {this.renderDescription()}
     </div>

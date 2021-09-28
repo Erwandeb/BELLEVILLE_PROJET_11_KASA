@@ -1,4 +1,6 @@
 import {Component} from 'react'
+import flecheLeft from '../../src/media/fleche-left.png';
+import flecheRight from '../../src/media/fleche-right.png';
 
 
 class SliderDisplay extends Component {
@@ -45,12 +47,12 @@ class SliderDisplay extends Component {
         }
         
         //Affichages des flèches
-        let arrowRight =  <img src="../media/fleche-right.png" alt="fleche next" className="arrow-right" onClick={() => this.onNextSlide()} />
+        let arrowRight =  <img src={flecheRight} alt="fleche next" className="arrow-right" onClick={() => this.onNextSlide()} />
             if(logementData.pictures.length === 1){
                 arrowRight = "";
             }
 
-        let arrowLeft =  <img src="../media/fleche-left.png" alt="fleche previous" className="arrow-left" onClick={() => this.onPrevSlide()} />
+        let arrowLeft =  <img src={flecheLeft} alt="fleche previous" className="arrow-left" onClick={() => this.onPrevSlide()} />
             if(logementData.pictures.length === 1){
                 arrowLeft = "";
             }

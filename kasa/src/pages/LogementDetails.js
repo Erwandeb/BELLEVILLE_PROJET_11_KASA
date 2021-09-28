@@ -21,7 +21,7 @@ class LogementDetails extends Component {
     componentDidMount() {
         const { id } = this.props.match.params
         
-        fetch(`../annonces.json`)
+        fetch(process.env.PUBLIC_URL + '/annonces.json')
             .then(res => res.json())
             .then((result) => {this.setState({
                 isLoaded : true, 
