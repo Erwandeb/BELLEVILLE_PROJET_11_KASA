@@ -13,7 +13,7 @@ class GridHomePage extends Component {
     }
 
     componentDidMount() {
-        fetch(`http://localhost:3000//annonces.json`)
+        fetch(`../annonces.json`)
         .then(res => res.json())
         .then( 
             (result) => {this.setState({
