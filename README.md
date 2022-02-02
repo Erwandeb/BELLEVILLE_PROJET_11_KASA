@@ -1,11 +1,28 @@
-# BELLEVILLE_PROJET_11_KASA
-Kasa est un site de Réservation d'appartement en ligne.
+# Bienvenue sur KASA
 
-Il s'agit de réaliser la partie Front-end une application web avec le framework REACT.
+Il s'agit d'une application de reservation d'appartement similaire à airbnb. 
+Grâce à React, la navigation et le transfert des données est ultra rapide. Toute l'application est codée avec les lifescycles.
+J'ai aussi créer des composants sans états réutilisable pour optimiser la scalabilité !
+Le contenu des pages est géré dynamiquement avec un fichier JSON et les images avec un hébergement AWS.
 
 
-Techniques abordées dans ce projet :
+
+## Quelques captures d'écrans : 
+<img width="930" alt="Capture" src="https://user-images.githubusercontent.com/73883090/152124423-de3f7bcb-548d-45f3-beca-f5638f872250.PNG">
+
+<img width="930" alt="Capture2" src="https://user-images.githubusercontent.com/73883090/152124438-51b213d2-6ec7-4c8b-aabb-be4b07cf1ede.PNG">
+
+<img width="930" alt="Capture3" src="https://user-images.githubusercontent.com/73883090/152124444-38633179-aac3-4cd6-990a-21cf3e9c1b05.PNG">
 
 
-- Le contenu des pages est généré dynamiquement à partir d'un fichier JSON.
+## Pré-Requis :
+Pour faire tourner ce projet, vous aurez besoin de NodeJS et de télécharger ce projet.
 
+
+## Une fois téléchargé :
+
+2)Front end : 
+- Ouvrir le terminal de commande de votre IDE
+- NPM Install 
+- NPM Start
+- Le projet doit se lancer dans votre navigateur et tourner sur votre serveur local:3000
