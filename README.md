@@ -5,6 +5,21 @@ Grâce à React, la navigation et le transfert des données est ultra rapide. To
 J'ai aussi créer des composants sans états réutilisable pour optimiser la scalabilité !
 Le contenu des pages est géré dynamiquement avec un fichier JSON et les images avec un hébergement AWS.
 
+### Techniques de développement :
+
+- Connecter une API avec une application Front-End
+- Création d'un routage
+- Développer des composants sans états pour les ré-utiliser
+- Utilser les LifeCycles
+- Gestion des datas
+- Coder entièrement une application en classes
+
+### Outils techniques :
+
+- React.js
+- Sass
+- React router dom
+- Axios
 
 
 ## Quelques captures d'écrans : 
