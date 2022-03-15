@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.665d9cb0.chunk.css",
-    "main.js": "/home/static/js/main.14d82b74.chunk.js",
-    "main.js.map": "/home/static/js/main.14d82b74.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.c9143d8a.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.c9143d8a.js.map",
-    "static/js/2.14bba4af.chunk.js": "/home/static/js/2.14bba4af.chunk.js",
-    "static/js/2.14bba4af.chunk.js.map": "/home/static/js/2.14bba4af.chunk.js.map",
-    "static/js/3.8bc68137.chunk.js": "/home/static/js/3.8bc68137.chunk.js",
-    "static/js/3.8bc68137.chunk.js.map": "/home/static/js/3.8bc68137.chunk.js.map",
-    "index.html": "/home/index.html",
-    "static/css/main.665d9cb0.chunk.css.map": "/home/static/css/main.665d9cb0.chunk.css.map",
-    "static/js/2.14bba4af.chunk.js.LICENSE.txt": "/home/static/js/2.14bba4af.chunk.js.LICENSE.txt",
-    "static/media/IMG.ac3aa739.png": "/home/static/media/IMG.ac3aa739.png",
-    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg": "/home/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg"
+    "main.css": "/static/css/main.665d9cb0.chunk.css",
+    "main.js": "/static/js/main.0440ffa2.chunk.js",
+    "main.js.map": "/static/js/main.0440ffa2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.130da4d2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.130da4d2.js.map",
+    "static/js/2.14bba4af.chunk.js": "/static/js/2.14bba4af.chunk.js",
+    "static/js/2.14bba4af.chunk.js.map": "/static/js/2.14bba4af.chunk.js.map",
+    "static/js/3.8bc68137.chunk.js": "/static/js/3.8bc68137.chunk.js",
+    "static/js/3.8bc68137.chunk.js.map": "/static/js/3.8bc68137.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.665d9cb0.chunk.css.map": "/static/css/main.665d9cb0.chunk.css.map",
+    "static/js/2.14bba4af.chunk.js.LICENSE.txt": "/static/js/2.14bba4af.chunk.js.LICENSE.txt",
+    "static/media/IMG.ac3aa739.png": "/static/media/IMG.ac3aa739.png",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash.b56a72c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9143d8a.js",
+    "static/js/runtime-main.130da4d2.js",
     "static/js/2.14bba4af.chunk.js",
     "static/css/main.665d9cb0.chunk.css",
-    "static/js/main.14d82b74.chunk.js"
+    "static/js/main.0440ffa2.chunk.js"
   ]
 }
